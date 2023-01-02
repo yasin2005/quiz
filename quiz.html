@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Quiz</title>
+</head>
+<body>
+    <!--top section-->
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-dark display-3 my-4">Islamic Quiz</h2>
+        </div>
+    </div>
+
+    <!--result section-->
+      <div class="result py-4 d-none bg-light text-center">
+         <div class="container lead">
+    <p>You got <span class="text-warning display-4 p-3">0%</span>!</p>
+         </div>
+      </div>
+
+    <!--quiz section-->
+    <div class="quiz py-4 bg-danger">
+        <div class="container">
+        <form class="quiz-form text-light">
+            <div class="my-5">
+         <p class="lead font-weight-normal">1. How many Amabiyaa are mentioned in the Qur’aan?</p>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q1" value="A"  >
+                <label class="form-check-label">20</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q1" value="B" >
+                <label class="form-check-label">30</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q1" value="C" >
+                <label class="form-check-label">25</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q1" value="D" >
+                <label class="form-check-label">24</label>
+            </div>
+           </div>
+        <div class="my-5">
+            <p class="lead font-weight-normal">2. Give the name of the shortest surah of the Qur’aan?</p>
+               <div class="form-check my-2 text-white-50">
+                   <input type="radio" name="q2" value="A"   >
+                   <label class="form-check-label">Kauthar</label>
+               </div>
+               <div class="form-check my-2 text-white-50">
+                   <input type="radio" name="q2" value="B" >
+                   <label class="form-check-label">Ikhlas</label>
+               </div>
+               <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q2" value="C" >
+                <label class="form-check-label">Asr</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q2" value="D" >
+                <label class="form-check-label">Nasr</label>
+            </div>
+              </div>
+        <div class="my-5">
+            <p class="lead font-weight-normal">3. Who was the master reader of the Qur’an among the companions of the Prophet Muhammad (صَلَّىٰ ٱللَّٰهُ عَلَيْهِ وَسَلَّمَ)?</p>
+               <div class="form-check my-2 text-white-50">
+                   <input type="radio" name="q3" value="A"   >
+                   <label class="form-check-label">Abdullah Ibn Masood</label>
+               </div>
+               <div class="form-check my-2 text-white-50">
+                   <input type="radio" name="q3" value="B" >
+                   <label class="form-check-label">Zaid Ibn Thabit</label>
+               </div>
+               <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q3" value="C" >
+                <label class="form-check-label">Salim Mawla Abi Hudhayfah</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q3" value="D" >
+                <label class="form-check-label">Ubayy Ibn Ka'b</label>
+              </div>
+              <div class="my-5">
+                <p class="lead font-weight-normal">4. How many words are in Qur'aan?</p>
+                   <div class="form-check my-2 text-white-50">
+                       <input type="radio" name="q4" value="A"   >
+                       <label class="form-check-label">79,000</label>
+                   </div>
+                   <div class="form-check my-2 text-white-50">
+                       <input type="radio" name="q4" value="B" >
+                       <label class="form-check-label">80,000</label>
+                   </div>
+                   <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q4" value="C" >
+                    <label class="form-check-label">100,000</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q4" value="D" >
+                    <label class="form-check-label">68,000</label>
+                </div>
+                  </div>
+                  <div class="my-5">
+                    <p class="lead font-weight-normal">5. How many letters in Qur'aan?</p>
+                       <div class="form-check my-2 text-white-50">
+                           <input type="radio" name="q5" value="A"   >
+                           <label class="form-check-label">323,670</label>
+                       </div>
+                       <div class="form-check my-2 text-white-50">
+                           <input type="radio" name="q5" value="B" >
+                           <label class="form-check-label">233,670</label>
+                       </div>
+                       <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="C" >
+                        <label class="form-check-label">343,670</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="D" >
+                        <label class="form-check-label">323,780</label>
+                    </div>
+                      </div>
+             <div class="my-5">
+                        <p class="lead font-weight-normal">6. How much Makki Surahs are in Qur'an?</p>
+                           <div class="form-check my-2 text-white-50">
+                               <input type="radio" name="q6" value="A"   >
+                               <label class="form-check-label">64</label>
+                           </div>
+                           <div class="form-check my-2 text-white-50">
+                               <input type="radio" name="q6" value="B" >
+                               <label class="form-check-label">100</label>
+                           </div>
+                           <div class="form-check my-2 text-white-50">
+                            <input type="radio" name="q6" value="C" >
+                            <label class="form-check-label">93</label>
+                        </div>
+                        <div class="form-check my-2 text-white-50">
+                            <input type="radio" name="q6" value="D" >
+                            <label class="form-check-label">91</label>
+                        </div>
+              </div>   
+              <div class="my-5">
+                <p class="lead font-weight-normal">7. How much Madani Surahs are in Qur'an?</p>
+                   <div class="form-check my-2 text-white-50">
+                       <input type="radio" name="q7" value="A"   >
+                       <label class="form-check-label">30</label>
+                   </div>
+                   <div class="form-check my-2 text-white-50">
+                       <input type="radio" name="q7" value="B" >
+                       <label class="form-check-label">22</label>
+                   </div>
+                   <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q7" value="C" >
+                    <label class="form-check-label">25</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q7" value="D" >
+                    <label class="form-check-label">21</label>
+                </div>
+      </div>   
+      <div class="my-5">
+        <p class="lead font-weight-normal">8. What was the name of the camel of Rasulullah?</p>
+           <div class="form-check my-2 text-white-50">
+               <input type="radio" name="q8" value="A"   >
+               <label class="form-check-label">Al-Qaswa</label>
+           </div>
+           <div class="form-check my-2 text-white-50">
+               <input type="radio" name="q8" value="B" >
+               <label class="form-check-label">Al-Jamal</label>
+           </div>
+           <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q8" value="C" >
+            <label class="form-check-label">Al-Ibil</label>
+        </div>
+        <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q8" value="D" >
+            <label class="form-check-label">Al-Himyar</label>
+        </div>
+</div> 
+<div class="my-5">
+    <p class="lead font-weight-normal">9. Almighty Allah has praised and used the Iman of two ladies as a model for other believers. Who are these two ladies?</p>
+       <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q9" value="A"   >
+           <label class="form-check-label">Wife of Ibrahim and Maryam</label>
+       </div>
+       <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q9" value="B" >
+           <label class="form-check-label">Wife of Firawn and Khadijah</label>
+       </div>
+       <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q9" value="C" >
+        <label class="form-check-label">Wife of Ibrahim and Khadijah</label>
+    </div>
+    <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q9" value="D" >
+        <label class="form-check-label">Wife of Firawn and Maryam</label>
+    </div>
+</div> 
+<div class="my-5">
+    <p class="lead font-weight-normal">10. Which animal is mentioned here has been mentioned to have spoken in Qur'an?</p>
+       <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q10" value="A"   >
+           <label class="form-check-label">The Elephant</label>
+       </div>
+       <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q10" value="B" >
+           <label class="form-check-label">The Honey-Bee</label>
+       </div>
+       <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q10" value="C" >
+        <label class="form-check-label">The Ant</label>
+    </div>
+    <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q10" value="D" >
+        <label class="form-check-label">The Fish</label>
+    </div>
+</div> 
+<div class="my-5">
+    <p class="lead font-weight-normal">11. Which Surah of the Qur’an contains orders for the change of Qiblah?</p>
+       <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q11" value="A"   >
+           <label class="form-check-label">Aal-Imran</label>
+       </div>
+       <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q11" value="B" >
+           <label class="form-check-label">Baqarah</label>
+       </div>
+       <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q11" value="C" >
+        <label class="form-check-label">Tawbah</label>
+    </div>
+    <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q11" value="D" >
+        <label class="form-check-label">Maaidah</label>
+    </div>
+</div> 
+<div class="my-5">
+    <p class="lead font-weight-normal">12. What was the first word of the Qur’an that was revealed to Prophet Muhammad?</p>
+       <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q12" value="A"   >
+           <label class="form-check-label">Iqra</label>
+       </div>
+       <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q12" value="B" >
+           <label class="form-check-label">Bismi</label>
+       </div>
+       <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q12" value="C" >
+        <label class="form-check-label">Alaq</label>
+    </div>
+    <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q12" value="D" >
+        <label class="form-check-label">Al-Hamdu</label>
+    </div>
+</div> 
+<div class="my-5">
+    <p class="lead font-weight-normal">13. What is the Arabic term used for the 'interpretation of the Quran'?</p>
+       <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q13" value="A"   >
+           <label class="form-check-label">Tajweed</label>
+       </div>
+       <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q13" value="B" >
+           <label class="form-check-label">Quran</label>
+       </div>
+       <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q13" value="C" >
+        <label class="form-check-label">Fiqh</label>
+    </div>
+    <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q13" value="D" >
+        <label class="form-check-label">Tafseer</label>
+    </div>
+</div> 
+<div class="my-5">
+    <p class="lead font-weight-normal">14. Give the name of the surah which was completely revealed for the first time to the Prophet, through Angel Jibrail?</p>
+       <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q14" value="A"   >
+           <label class="form-check-label">Nasr</label>
+       </div>
+       <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q14" value="B" >
+           <label class="form-check-label">Fatihah</label>
+       </div>
+       <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q14" value="C" >
+        <label class="form-check-label">Burooj</label>
+    </div>
+    <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q14" value="D" >
+        <label class="form-check-label">Balad</label>
+    </div>
+</div> 
+<div class="my-5">
+    <p class="lead font-weight-normal">15. How long did Prophet Muhammed SAW stay in Makkah after receiving Prophethood? </p>
+       <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q15" value="A"   >
+           <label class="form-check-label">10</label>
+       </div>
+       <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q15" value="B" >
+           <label class="form-check-label">3</label>
+       </div>
+       <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q15" value="C" >
+        <label class="form-check-label">13</label>
+    </div>
+    <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q15" value="D" >
+        <label class="form-check-label">15</label>
+    </div>
+</div> 
+<div class="my-5">
+    <p class="lead font-weight-normal">16. How long did Prophet Muhammed SAW stay in Madinah before his death?</p>
+       <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q16" value="A"   >
+           <label class="form-check-label">13</label>
+       </div>
+       <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q16" value="B" >
+           <label class="form-check-label">10</label>
+       </div>
+       <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q16" value="C" >
+        <label class="form-check-label">5</label>
+    </div>
+    <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q16" value="D" >
+        <label class="form-check-label">15</label>
+    </div>
+</div>
+<div class="my-5">
+    <p class="lead font-weight-normal">17. What was miraculous about Prophet Ishaq's birth?</p>
+       <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q17" value="A"   >
+           <label class="form-check-label">His mother was too old to give birth</label>
+       </div>
+       <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q17" value="B" >
+           <label class="form-check-label">He did not have a mother</label>
+       </div>
+       <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q17" value="C" >
+        <label class="form-check-label">He did not have a father</label>
+    </div>
+    <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q17" value="D" >
+        <label class="form-check-label">He had no parents</label>
+    </div>
+</div>
+<div class="my-5">
+    <p class="lead font-weight-normal">18. What was miraculous about Prophet Isa's birth?</p>
+       <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q18" value="A"   >
+           <label class="form-check-label">His mother was too old to give birth</label>
+       </div>
+       <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q18" value="B" >
+           <label class="form-check-label">He had no parents </label>
+       </div>
+       <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q18" value="C" >
+        <label class="form-check-label">He did not have a mother</label>
+    </div>
+    <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q18" value="D" >
+        <label class="form-check-label">He did not have a father</label>
+    </div>
+</div>
+<div class="my-5">
+    <p class="lead font-weight-normal">19. Who was the mother of Prophet Isa?</p>
+       <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q19" value="A"   >
+           <label class="form-check-label">Khadijah </label>
+       </div>
+       <div class="form-check my-2 text-white-50">
+           <input type="radio" name="q19" value="B" >
+           <label class="form-check-label">Maymunah</label>
+       </div>
+       <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q19" value="C" >
+        <label class="form-check-label">Maryam</label>
+    </div>
+    <div class="form-check my-2 text-white-50">
+        <input type="radio" name="q19" value="D" >
+        <label class="form-check-label">Aisha</label>
+    </div>
+</div>
+         <div class="my-5">
+                <p class="lead font-weight-normal">20. How many verses are in the Qur'an?</p>
+                   <div class="form-check my-2 text-white-50">
+                       <input type="radio" name="q20" value="A"   >
+                       <label class="form-check-label">6666</label>
+                   </div>
+                   <div class="form-check my-2 text-white-50">
+                       <input type="radio" name="q20" value="B" >
+                       <label class="form-check-label">6236</label>
+             </div>
+             <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q20" value="C" >
+                <label class="form-check-label">6432</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q20" value="D" >
+                <label class="form-check-label">6326</label>
+            <div class="text-center">
+                <input type="submit" class="btn btn-light">
+            </div>
+         </div>
+        </form>
+        </div>
+    </div>
+<script src="quiz.js"></script>
+</body>
+</html>
